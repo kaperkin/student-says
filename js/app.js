@@ -87,7 +87,7 @@ var quotes = [
         var randomNum = Math.floor(Math.random() * quotes.length);
         var studentGrade = "<span> &nbsp;grade ";
         var studentNameAge = "- " + quotes[randomNum].student;
-        var hashtag = '<span class="hashtag"> #studentsays</span>';
+        //var hashtag = ' #studentsays';
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
@@ -96,7 +96,7 @@ var quotes = [
         }
         studentGrade += "</span>";
 
-        story.innerHTML = quotes[randomNum].story + hashtag;
+        story.innerHTML = quotes[randomNum].story;
         student.innerHTML = studentNameAge;
         grade.innerHTML = studentGrade;
     }

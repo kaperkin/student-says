@@ -1,5 +1,6 @@
 body {
     background-color: #eee;
+    min-height: 100%;
 }
 blockquote{
     min-height: 120px;
@@ -22,8 +23,28 @@ blockquote{
     margin-bottom: 10px;
 }
 
+
+.foot{
+    background-color: rgba(190, 210, 33, .7);
+    bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-height: 50px;
+    position: fixed;
+    width:100%;
+
+}
+
+.foot p {
+    padding-top: 6px;
+}
+
+.foot p a{
+    color: #333;
+}
+
 .jumbotron {
-    background-color: #BED221;
+    background-color: #bed221;
     margin-top: 8%;
 }
 
