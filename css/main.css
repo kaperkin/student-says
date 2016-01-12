@@ -40,6 +40,12 @@ p > span {
     font-style: italic;
 }
 
+.row > .grade{
+    margin-top: 0;
+}
+.row > .student{
+    margin-bottom: 0;
+}
 .text-left {
     color: #333;
 }

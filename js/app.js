@@ -73,6 +73,7 @@ var quotes = [
 (function () {
     var story = document.getElementById("story");
     var student = document.getElementById("student");
+    var grade = document.getElementById("grade");
 
 
     function init() {
@@ -84,19 +85,20 @@ var quotes = [
 
     function studentSays() {
         var randomNum = Math.floor(Math.random() * quotes.length);
-        var studentGrade = "<span>grade ";
+        var studentGrade = "<span>     grade ";
         var studentNameAge = "- " + quotes[randomNum].student;
         var hashtag = '<span class="hashtag"> #studentsays</span>';
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
         } else {
-            studentGrade = "<span>" + quotes[randomNum].grade;
+            studentGrade = "<span>     " + quotes[randomNum].grade;
         }
         studentGrade += "</span>";
 
         story.innerHTML = quotes[randomNum].story + hashtag;
-        student.innerHTML = studentNameAge + " " + studentGrade;
+        student.innerHTML = studentNameAge;
+        grade.innerHTML = studentGrade;
     }
 
     function tweetThis() {
