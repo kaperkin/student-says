@@ -1,7 +1,7 @@
 "use strict";
 var quotes = [
     {
-        story: '"I\'ve never ridden a Unicorn!"',
+        story: '(while crying) "I\'ve never ridden a Unicorn!"',
         student: "Naomi",
         grade: 'Kindergarten'
     },
@@ -68,6 +68,11 @@ var quotes = [
         story: ' I wasn\'t certain if the student understood the word when she used the vocabulary word embrace in the sentence..."The girl broke her leg so the doctor\'s gave her an embrace."',
         student: 'Amya',
         grade: 2
+    },
+    {
+        story: 'I wore a shirt with a picture of a Jack-o-Lantern on it for Halloween. Student: "Spooky!", he says as he reaches forward and squeezes the Jack-o-Lantern',
+        student: 'Myles',
+        grade: 'Preschool'
     }
 ];
 (function () {
