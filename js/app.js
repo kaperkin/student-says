@@ -72,7 +72,7 @@ var quotes = [
     }
 
     function tweetThis() {
-        var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentsays";
+        var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentSays";
         return window.open(url);
     }
 

@@ -1,20 +1,22 @@
 body{
-    background-color: #006060;
+    background-color: #eee;
 }
 
 .btn-default{
-    background-color: #007878;
+    background-color: #eee;
     background-image: none;
-    color: #f0f0d8;
+    border: none;
+    box-shadow: none;
+    color: #333;
     margin: 12px;
+    text-shadow: none;
 }
 
 .btn-default:hover{
-    background-color: #184848;
-    color: #A8c030;
+    background-color: #a2b9c2;
 }
 .jumbotron{
-    background-color: #A8C030;
+    background-color: #b1c076;
     margin-top: 8%;
 }
 
@@ -23,5 +25,5 @@ p{
 }
 
 .text-left{
-    color: #f0f0d8;
+    color: #333;
 }
