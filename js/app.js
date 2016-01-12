@@ -73,7 +73,6 @@ var quotes = [
 
     function tweetThis() {
         var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentsays";
-        console.log(url);
         return window.open(url);
     }
 
