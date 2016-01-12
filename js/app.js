@@ -74,6 +74,7 @@ var quotes = [
     var story = document.getElementById("story");
     var student = document.getElementById("student");
 
+
     function init() {
         document.getElementById("btn").addEventListener("click", studentSays);
         document.getElementById("tweet-quote").addEventListener("click", tweetThis);

@@ -1,8 +1,10 @@
-body{
+body {
     background-color: #eee;
 }
-
-.btn-default{
+blockquote{
+    min-height: 120px;
+}
+.btn-default {
     background-color: #eee;
     background-image: none;
     border: none;
@@ -12,36 +14,32 @@ body{
     text-shadow: none;
 }
 
-.btn-default:hover{
+.btn-default:hover {
     background-color: #a7c2a3;
 }
 
 .buttons {
     margin-bottom: 10px;
 }
-p >span{
-    font-size: .75em;
-    font-style: italic;
-}
 
-/*.hashtag{*/
-    /*font-style: italic;*/
-    /*color: #333333;*/
-/*}*/
-.jumbotron{
+.jumbotron {
     background-color: #BED221;
     margin-top: 8%;
 }
 
-.jumbotron  .row  .content{
+.jumbotron .row .content {
     min-height: 190px;
 }
 
-
-p{
+p {
     font-size: 1.25em;
 }
 
-.text-left{
+p > span {
+    font-size: .75em;
+    font-style: italic;
+}
+
+.text-left {
     color: #333;
 }
