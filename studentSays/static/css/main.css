@@ -1,0 +1,28 @@
+body{
+    background-color: #006060;
+}
+
+.btn-default{
+    background-color: #007878;
+    background-image: none;
+    border-radius: 50%;
+    color: #f0f0d8;
+    margin: 12px;
+}
+
+.btn-default:hover{
+    background-color: #184848;
+    color: #A8c030;
+}
+.jumbotron{
+    background-color: #A8C030;
+    margin-top: 8%;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+.text-left{
+    color: #f0f0d8;
+}
