@@ -85,14 +85,14 @@ var quotes = [
 
     function studentSays() {
         var randomNum = Math.floor(Math.random() * quotes.length);
-        var studentGrade = "<span>     grade ";
+        var studentGrade = "<span> &nbsp;grade ";
         var studentNameAge = "- " + quotes[randomNum].student;
         var hashtag = '<span class="hashtag"> #studentsays</span>';
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
         } else {
-            studentGrade = "<span>     " + quotes[randomNum].grade;
+            studentGrade = "<span> &nbsp;" + quotes[randomNum].grade;
         }
         studentGrade += "</span>";
 
