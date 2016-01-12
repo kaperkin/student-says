@@ -58,14 +58,15 @@ var quotes = [
 
     function studentSays() {
         var randomNum = Math.floor(Math.random() * quotes.length);
-        var studentGrade = "Grade ";
+        var studentGrade = "<span>Grade ";
         var studentNameAge = "- " + quotes[randomNum].student + ", ";
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
         } else {
-            studentGrade = quotes[randomNum].grade;
+            studentGrade = "<span>" + quotes[randomNum].grade;
         }
+        studentGrade += "</span>";
 
         story.innerHTML = quotes[randomNum].story;
         student.innerHTML = studentNameAge + studentGrade;

@@ -15,8 +15,13 @@ body{
 .btn-default:hover{
     background-color: #a2b9c2;
 }
+
+p >span{
+    font-size: .75em;
+    font-style: italic;
+}
 .jumbotron{
-    background-color: #b1c076;
+    background-color: #96c07a;
     margin-top: 8%;
 }
 
