@@ -45,32 +45,37 @@ var quotes = [
         grade: 7
     }
 ];
+(function () {
+    var story = document.getElementById("story");
+    var student = document.getElementById("student");
 
+    function init() {
+        document.getElementById("btn").addEventListener("click", studentSays);
+        document.getElementById("tweet-quote").addEventListener("click", tweetThis);
+        studentSays();
 
-function init() {
-    document.getElementById("btn").addEventListener("click", studentSays);
-    document.getElementById("tweet-quote").addEventListener("click", tweetThis);
-    studentSays();
-
-}
-
-function studentSays() {
-    var randomNum = Math.floor(Math.random() * quotes.length);
-    var studentGrade = "Grade ";
-    var studentNameAge = "- " + quotes[randomNum].student + ", ";
-
-    if (Number(quotes[randomNum].grade)) {
-        studentGrade += quotes[randomNum].grade;
-    } else {
-        studentGrade = quotes[randomNum].grade;
     }
 
-    document.getElementById("story").innerHTML = quotes[randomNum].story;
-    document.getElementById("student").innerHTML = studentNameAge + studentGrade;
-}
+    function studentSays() {
+        var randomNum = Math.floor(Math.random() * quotes.length);
+        var studentGrade = "Grade ";
+        var studentNameAge = "- " + quotes[randomNum].student + ", ";
 
-function tweetThis() {
+        if (Number(quotes[randomNum].grade)) {
+            studentGrade += quotes[randomNum].grade;
+        } else {
+            studentGrade = quotes[randomNum].grade;
+        }
 
-}
+        story.innerHTML = quotes[randomNum].story;
+        student.innerHTML = studentNameAge + studentGrade;
+    }
 
-document.addEventListener("DOMContentLoaded", init);
+    function tweetThis() {
+        var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentsays";
+        console.log(url);
+        return window.open(url);
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
+})();
