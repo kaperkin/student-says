@@ -43,6 +43,26 @@ var quotes = [
         'He exclaimed "Mrs. Kelley I just invented paper underwear! " I didn\'t have the heart to point out the flaw in his design.',
         student: 'Jayden',
         grade: 7
+    },
+    {
+        story: '"Ms. K, cats love me. They always come to my house when I\'m home and are like "Heeeey Vanessa what\'s up?"',
+        student: "Vanessa",
+        grade: "Kindergarten"
+    },
+    {
+        story: 'S: "Ms. K!!! I think Josh is going to womit!" Me: "He\'s going to what?" S: "WOMIT!" I look over at Josh who is vomiting on the rug.S: "Ms. K I think he wommited already."Me: "Yes I think he did vomit Jake... Thank you."',
+        student: "Jake",
+        grade: "Kindergarten"
+    },
+    {
+        story: 'S: "Ms. K I can see your pussy." Me: "You can see what?!?!?" S: "I can see your purse-y." As he points to my purse.',
+        student: "Amaya",
+        grade: "Kindergarten"
+    },
+    {
+        story: '" teacher please tell me your secret, your secret is safe with me"',
+        student: "Emmanuel",
+        grade: "Preschool"
     }
 ];
 (function () {
@@ -58,8 +78,9 @@ var quotes = [
 
     function studentSays() {
         var randomNum = Math.floor(Math.random() * quotes.length);
-        var studentGrade = "<span>Grade ";
-        var studentNameAge = "- " + quotes[randomNum].student + ", ";
+        var studentGrade = "<span>grade ";
+        var studentNameAge = "- " + quotes[randomNum].student;
+        var hashtag = '<span class="hashtag"> #studentSays</span>';
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
@@ -68,8 +89,8 @@ var quotes = [
         }
         studentGrade += "</span>";
 
-        story.innerHTML = quotes[randomNum].story;
-        student.innerHTML = studentNameAge + studentGrade;
+        story.innerHTML = quotes[randomNum].story + hashtag;
+        student.innerHTML = studentNameAge + " " + studentGrade;
     }
 
     function tweetThis() {

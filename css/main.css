@@ -23,13 +23,18 @@ p >span{
     font-size: .75em;
     font-style: italic;
 }
+
+/*.hashtag{*/
+    /*font-style: italic;*/
+    /*color: #333333;*/
+/*}*/
 .jumbotron{
     background-color: #BED221;
     margin-top: 8%;
 }
 
-.jumbotron > .row > .content{
-    height: 175px;
+.jumbotron  .row  .content{
+    min-height: 190px;
 }
 
 
