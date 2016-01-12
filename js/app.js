@@ -56,7 +56,7 @@ var quotes = [
     },
     {
         story: 'S: "Ms. K I can see your pussy." Me: "You can see what?!?!?" S: "I can see your purse-y." As he points to my purse.',
-        student: "Amaya",
+        student: "Ray",
         grade: "Kindergarten"
     },
     {
@@ -66,7 +66,7 @@ var quotes = [
     },
     {
         story: ' I wasn\'t certain if the student understood the word when she used the vocabulary word embrace in the sentence..."The girl broke her leg so the doctor\'s gave her an embrace."',
-        student: 'Raymond',
+        student: 'Amya',
         grade: 2
     }
 ];
