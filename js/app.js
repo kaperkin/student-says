@@ -63,6 +63,11 @@ var quotes = [
         story: '" teacher please tell me your secret, your secret is safe with me"',
         student: "Emmanuel",
         grade: "Preschool"
+    },
+    {
+        story: ' I wasn\'t certain if the student understood the word when she used the vocabulary word embrace in the sentence..."The girl broke her leg so the doctor\'s gave her an embrace."',
+        student: 'Raymond',
+        grade: 2
     }
 ];
 (function () {
