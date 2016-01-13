@@ -11,12 +11,12 @@ var quotes = [
         grade: 3
     },
     {
-        story: 'I had a student say "I have a very close die date"... He wanted to say "I have a tight deadline"',
+        story: '"I have a very close die date"... He wanted to say "I have a tight deadline"',
         student: 'Gonzalo',
         grade: 'Adult English Learner'
     },
     {
-        story: '"Me to student: "no comments from the peanut gallery!" Student: "can I be in the cashew gallery instead? I love cashews!"',
+        story: '"Me to students: "no comments from the peanut gallery!" Matthew: "can I be in the cashew gallery instead? I love cashews!"',
         student: "Matthew",
         grade: 7
     },
@@ -42,7 +42,7 @@ var quotes = [
         'Today a student walked up to me and held up his lttle project he was working on. He was so excited about it. ' +
         'He exclaimed "Mrs. Kelley I just invented paper underwear! " I didn\'t have the heart to point out the flaw in his design.',
         student: 'Jayden',
-        grade: 7
+        grade: 2
     },
     {
         story: '"Ms. K, cats love me. They always come to my house when I\'m home and are like "Heeeey Vanessa what\'s up?"',
@@ -50,17 +50,17 @@ var quotes = [
         grade: "Kindergarten"
     },
     {
-        story: 'S: "Ms. K!!! I think Josh is going to womit!" Me: "He\'s going to what?" S: "WOMIT!" I look over at Josh who is vomiting on the rug.S: "Ms. K I think he wommited already."Me: "Yes I think he did vomit Jake... Thank you."',
+        story: 'Jake: "Ms. K!!! I think Josh is going to womit!" Me: "He\'s going to what?" Jake: "WOMIT!" I look over at Josh who is vomiting on the rug. Jake: "Ms. K I think he wommited already."Me: "Yes I think he did vomit Jake... Thank you."',
         student: "Jake",
         grade: "Kindergarten"
     },
     {
-        story: 'S: "Ms. K I can see your pussy." Me: "You can see what?!?!?" S: "I can see your purse-y." As he points to my purse.',
+        story: 'Ray: "Ms. K I can see your pussy." Me: "You can see what?!?!?" Ray: "I can see your purse-y." As he points to my purse.',
         student: "Ray",
         grade: "Kindergarten"
     },
     {
-        story: '" teacher please tell me your secret, your secret is safe with me"',
+        story: '"Teacher please tell me your secret, your secret is safe with me"',
         student: "Emmanuel",
         grade: "Preschool"
     },
@@ -70,9 +70,14 @@ var quotes = [
         grade: 2
     },
     {
-        story: 'I wore a shirt with a picture of a Jack-o-Lantern on it for Halloween. Student: "Spooky!", he says as he reaches forward and squeezes the Jack-o-Lantern',
+        story: 'I wore a shirt with a picture of a Jack-o-Lantern on it for Halloween. Myles: "Spooooooky!", he says as he reaches forward and firmly squeezes the Jack-o-Lantern',
         student: 'Myles',
         grade: 'Preschool'
+    },
+    {
+        story: ' I hear from across the room: "I\'M RAISING MY HAND!!!" Kind of defeating the purpose of quietly raising his hand...',
+        student: 'Tony',
+        grade: 6
     }
 ];
 (function () {
