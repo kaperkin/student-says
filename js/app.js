@@ -78,6 +78,11 @@ var quotes = [
         story: ' I hear from across the room: "I\'M RAISING MY HAND!!!" Kind of defeating the purpose of quietly raising his hand...',
         student: 'Tony',
         grade: 6
+    },
+    {
+        story: 'Overheard after a game of dodgeball at recess: Abdul: "Wow! Max, you came up with a GREAT plan! What was it again?" Max: "To go out there and throw the balls!" Abdul: "Yeah, that was it! That was a great plan!"',
+        student: "Abdul and Max",
+        grade: 4
     }
 ];
 (function () {
