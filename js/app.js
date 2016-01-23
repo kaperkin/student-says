@@ -102,7 +102,7 @@ var quotes = [
         var randomNum = Math.floor(Math.random() * quotes.length);
         var studentGrade = "<span> &nbsp;grade ";
         var studentNameAge = "- " + quotes[randomNum].student;
-        //var hashtag = ' #studentsays';
+        //var hashtag = ' #studentSays';
 
         if (Number(quotes[randomNum].grade)) {
             studentGrade += quotes[randomNum].grade;
@@ -117,7 +117,7 @@ var quotes = [
     }
 
     function tweetThis() {
-        var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentsays";
+        var url = "https://twitter.com/intent/tweet?text=" + story.innerHTML + student.innerHTML + "&hashtags=studentSays";
         return window.open(url);
     }
 

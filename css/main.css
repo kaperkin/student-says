@@ -1,11 +1,22 @@
 body {
     background-color: #eee;
     font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    position: relative;
     min-height: 100%;
 }
-blockquote{
+
+blockquote {
     min-height: 120px;
 }
+
 .btn-default {
     background-color: #eee;
     background-image: none;
@@ -24,23 +35,25 @@ blockquote{
     margin-bottom: 10px;
 }
 
-
-.foot{
+.foot {
     background-color: rgba(190, 210, 33, .7);
-    bottom: 0;
     margin-bottom: 0;
     margin-left: 0;
-    min-height: 50px;
-    position: fixed;
-    width:100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
 
 }
 
 .foot p {
+    margin-bottom: 0;
     padding-top: 6px;
 }
 
-.foot p a{
+.foot p a {
     color: #333;
 }
 
@@ -62,12 +75,19 @@ p > span {
     font-style: italic;
 }
 
-.row > .grade{
+.row > .grade {
     margin-top: 0;
 }
-.row > .student{
+
+.row > .student {
     margin-bottom: 0;
 }
+
 .text-left {
     color: #333;
 }
+
+.wrapper {
+    margin-bottom: 100px;
+}
+
