@@ -83,6 +83,26 @@ var quotes = [
         story: 'Overheard after a game of dodgeball at recess: Abdul: "Wow! Max, you came up with a GREAT plan! What was it again?" Max: "To go out there and throw the balls!" Abdul: "Yeah, that was it! That was a great plan!"',
         student: "Abdul and Max",
         grade: 4
+    },
+    {
+        story: 'Teacher: "Don\'t steal my coffee or I\'ll become" Cathy: "-a raisin!" (I was going to say "cranky")',
+        student: 'Cathy',
+        grade: 'Kindergarten'
+    },
+    {
+        story: 'We are studying figurative language and I was giving examples of similes. Mrs. Hamilton: "I\'m as cranky as a lion in a cage." Jenny: "Mrs. Hamilton, is this portable your cage?" Mrs. Hamilton: "Yes, yes it is..."',
+        student: 'Jenny',
+        grade: 7
+    },
+    {
+        story: 'Mary(gestures wildly to group of three boys): "Look how many guy friends I have!" Teresa: "Wow! That\'s a lot!"',
+        student: 'Mary',
+        grade: 3
+    },
+    {
+        story: 'An 8th grader poses for a picture wearing a tiny stick-on mustache and standing in the Nazi salute Teacher:"Your future self says not to post that picture anywhere" A look of horror and realization spread across his face... Austin:"Hey Reece! Come back here and delete that!"',
+        student: 'Austin',
+        grade: 8
     }
 ];
 (function () {
