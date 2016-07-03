@@ -103,6 +103,11 @@ var quotes = [
         story: 'An 8th grader poses for a picture wearing a tiny stick-on mustache and standing in the Nazi salute Teacher:"Your future self says not to post that picture anywhere" A look of horror and realization spread across his face... Austin:"Hey Reece! Come back here and delete that!"',
         student: 'Austin',
         grade: 8
+    },
+    {
+        story: 'One kid whom I have carefully built a great relationship over the course of this year wasn\'t doing his work (not unusual for him). I told him he had to write something on his paper. He held it up a couple of minutes later and his answer was just the word "something". He says "see, I wrote \'something\' on my paper!"',
+        student: 'Jim',
+        grade: 7
     }
 ];
 (function () {
