@@ -108,6 +108,11 @@ var quotes = [
         story: 'One kid whom I have carefully built a great relationship over the course of this year wasn\'t doing his work (not unusual for him). I told him he had to write something on his paper. He held it up a couple of minutes later and his answer was just the word "something". He says "see, I wrote \'something\' on my paper!"',
         student: 'Jim',
         grade: 7
+    },
+    {
+      story: 'Today, a crying 5 year old told me "I am crying because my blanket isn\'t a taco" Teacher to self: Story of my life, kid.',
+      student: 'Dianna',
+      grade: 'Kindergarten'
     }
 ];
 (function () {
