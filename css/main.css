@@ -1,3 +1,9 @@
+/* TO DO
+1. add divs to footer for cols to hold ps
+2.
+3.
+*/
+
 body {
     background-color: #eee;
     font-family: 'Maven Pro', sans-serif;
@@ -91,3 +97,8 @@ p > span {
     margin-bottom: 100px;
 }
 
+@media (max-width: 700px) {
+  .foot p {
+    text-align: center;
+  }
+}
