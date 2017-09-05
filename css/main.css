@@ -1,5 +1,5 @@
 /* TO DO
-1. add divs to footer for cols to hold ps
+1.
 2.
 3.
 */
@@ -41,28 +41,6 @@ blockquote {
     margin-bottom: 10px;
 }
 
-.foot {
-    background-color: rgba(190, 210, 33, .7);
-    margin-bottom: 0;
-    margin-left: 0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-
-}
-
-.foot p {
-    margin-bottom: 0;
-    padding-top: 6px;
-}
-
-.foot p a {
-    color: #333;
-}
-
 .jumbotron {
     background-color: #bed221;
     margin-top: 8%;
@@ -89,6 +67,15 @@ p > span {
     margin-bottom: 0;
 }
 
+.startOver{
+  display: none;
+  min-height: 239px;
+}
+
+.startOver .btn{
+  margin-top: 50%;
+}
+
 .text-left {
     color: #333;
 }
@@ -96,8 +83,33 @@ p > span {
 .wrapper {
     margin-bottom: 100px;
 }
+.foot {
+    background-color: rgba(190, 210, 33, .7);
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+
+}
+
+.foot p {
+    margin-bottom: 0;
+    padding-top: 6px;
+}
+
+.foot p a {
+    color: #333;
+}
 
 @media (max-width: 700px) {
+  .foot{
+    margin-top: 10%;
+    position: relative;
+  }
   .foot p {
     text-align: center;
   }
