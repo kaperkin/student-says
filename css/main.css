@@ -5,7 +5,7 @@
 */
 
 body {
-    background-color: #eee;
+    background-color: #efefef;
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     min-height: 100%;
@@ -33,16 +33,12 @@ blockquote {
     text-shadow: none;
 }
 
-.btn-default:hover {
-    background-color: #a7c2a3;
-}
-
 .buttons {
     margin-bottom: 10px;
 }
 
 .jumbotron {
-    background-color: #bed221;
+    background-color: rgb(191,190,232);
     margin-top: 8%;
 }
 
@@ -84,7 +80,7 @@ p > span {
     margin-bottom: 100px;
 }
 .foot {
-    background-color: rgba(190, 210, 33, .7);
+    background-color: rgb(191,190,232);
     margin-bottom: 0;
     margin-left: 0;
     width: 100%;
@@ -103,6 +99,11 @@ p > span {
 
 .foot p a {
     color: #333;
+}
+
+.foot p a:hover {
+    color: #eee;
+    transition: all .2s ease;
 }
 
 @media (max-width: 700px) {
